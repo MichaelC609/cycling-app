@@ -1,3 +1,5 @@
+import '../static/navbar.css'
+
 function Navbar()
 {
     return(
