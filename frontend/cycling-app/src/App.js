@@ -1,7 +1,9 @@
+import LandingPage from './pages/LandingPage.jsx';
+
 function App() {
   return (
     <>
-      <h1>Hello</h1>
+      <LandingPage />
     </>
   );
 }
