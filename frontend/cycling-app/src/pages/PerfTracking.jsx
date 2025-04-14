@@ -1,13 +1,13 @@
 import Navbar from "../components/Navbar";
 
-function HomePage()
+function PerfTracking()
 {
     return(
         <>
             <Navbar />
-            <h1>Home Page</h1>
+            <h1>Track Your Performance</h1>
         </>
     );
 }
 
-export default HomePage;
+export default PerfTracking;

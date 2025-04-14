@@ -1,13 +1,13 @@
 import Navbar from "../components/Navbar";
 
-function HomePage()
+function RouteOptimizer()
 {
     return(
         <>
             <Navbar />
-            <h1>Home Page</h1>
+            <h1>Route Optimizer</h1>
         </>
-    );
+    )
 }
 
-export default HomePage;
+export default RouteOptimizer;

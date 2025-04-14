@@ -9,4 +9,7 @@ function LandingPage()
     )
 }
 
+console.log("LandingPage rendered");
+
+
 export default LandingPage;
