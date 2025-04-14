@@ -60,7 +60,7 @@
 .account-exists{
     padding-left: 62px;
     margin-top: 27px;
-    color: #797979;
+    color: white;
     font-size: 18px;
     align-items: center;
 }
@@ -70,6 +70,14 @@
     cursor: pointer;
     align-items: center;
     text-align: center;
+}
+
+.account-login{
+    color: white;
+}
+
+.account-login:hover{
+    color: yellow;
 }
 
 .submit-container{

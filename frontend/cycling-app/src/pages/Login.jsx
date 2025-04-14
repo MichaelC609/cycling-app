@@ -1,11 +1,12 @@
 import '../static/login.css';
 import { Link } from 'react-router-dom';
-import CustomLink from '../components/Navbar';
+import Navbar from '../components/Navbar';
 
 function Login()
 {
     return(
         <>
+            <Navbar />
             <div className="container">
                 <div className="header">
                     <div className="text">Log In</div>
@@ -19,8 +20,8 @@ function Login()
                         <input type="email" placeholder='Enter your password'/>
                     </div>
                 </div>  
-                <div className="account-not-exists">Don't have an account? 
-                    <Link to="/signup">Sign up here</Link>
+                <div className="account-not-exists">Don't have an account?  
+                    <Link to="/signup" className='create-account'>Sign up here</Link>
                 </div>
                 <div className="submit-container">
                     <div className="submit">Log In</div>
