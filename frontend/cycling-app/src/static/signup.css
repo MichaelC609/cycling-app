@@ -57,16 +57,19 @@
     font-size: 19px;
 }
 
-.forgot-password{
+.account-exists{
     padding-left: 62px;
     margin-top: 27px;
     color: #797979;
     font-size: 18px;
+    align-items: center;
 }
 
-.forgot-password span{
+.account-exists span{
     color: #4c00b4;
     cursor: pointer;
+    align-items: center;
+    text-align: center;
 }
 
 .submit-container{

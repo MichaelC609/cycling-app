@@ -20,12 +20,11 @@ function Signup()
                         <input type="password" placeholder='Enter a Password'/>
                     </div>
                 </div>  
-                <div className="forgot-password">Forgot Password? 
-                    <span> Click Here</span>
+                <div className="account-exists">Have an account? 
+                    <span> Login Here</span>
                 </div>
                 <div className="submit-container">
                     <div className="submit">Sign Up</div>
-                    <div className="submit">Log In</div>
                 </div>  
             </div>
         </>
