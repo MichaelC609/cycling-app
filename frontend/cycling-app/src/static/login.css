@@ -18,7 +18,7 @@
 }
 
 .text{
-    color: white;
+    color: blue;
     font-size: 48px;
     font-weight: 700;
 }
@@ -26,7 +26,7 @@
 .underline{
     width: 61px;
     height: 6px;
-    background: white;
+    background: blue;
     border-radius: 9px;
 }
 
@@ -57,7 +57,7 @@
     font-size: 19px;
 }
 
-.account-exists{
+.account-not-exists{
     padding-left: 62px;
     margin-top: 27px;
     color: #797979;
@@ -65,7 +65,7 @@
     align-items: center;
 }
 
-.account-exists span{
+.account-not-exists span{
     color: white;
     cursor: pointer;
     align-items: center;

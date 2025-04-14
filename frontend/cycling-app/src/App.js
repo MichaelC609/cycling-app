@@ -3,6 +3,7 @@ import HomePage from './pages/HomePage.jsx';
 import PerfTracking from './pages/PerfTracking.jsx';
 import RouteOptimizer from './pages/RouteOptimizer.jsx';
 import Signup from './pages/Signup.jsx';
+import Login from './pages/Login.jsx';
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path= '/route-optimizer' element={<RouteOptimizer />} />
           <Route path= '/performance-tracking' element={<PerfTracking />} />
           <Route path= '/signup' element={<Signup />} />
+          <Route path= '/login' element={<Login />} />
         </Routes>
     </>
   );
