@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import { BrowserRouter, RouterProvider, Routes } from 'react-router-dom';
 import { useAuth } from "./provider/authProvider";
+import AuthProvider from './provider/authProvider';
 import { ProtectedRoute } from "./routes/ProtectedRoute";
 import LandingPage from './pages/LandingPage';
 import HomePage from './pages/HomePage';
@@ -13,12 +14,14 @@ import Signup from './pages/Signup';
 document.addEventListener('DOMContentLoaded', () => {
     const rootDiv = document.getElementById('root');
 
-    const root = ReactDOM.createRoot(rootDiv);
+    const root = ReactDOM.createRoot(document.getElementById('root'));
     root.render(
       <React.StrictMode>
-        <BrowserRouter>
-          <App />
-        </BrowserRouter>
+        <AuthProvider>
+          <BrowserRouter>
+            <App />
+          </BrowserRouter>
+        </AuthProvider>
       </React.StrictMode>
     );
 
