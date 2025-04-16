@@ -1,11 +1,5 @@
 import axios from "axios";
-import {
-    createContext,
-    useContext,
-    useEffect,
-    useMemo,
-    useState
-} from 'react';
+import {createContext, useContext, useEffect, useMemo, useState} from 'react';
 
 //create empty context object using createContext
 const AuthContext = createContext();
