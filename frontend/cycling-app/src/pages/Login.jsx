@@ -17,7 +17,7 @@ function Login()
                         <input type="text" placeholder='Enter your username'/>
                     </div>
                     <div className="input">
-                        <input type="email" placeholder='Enter your password'/>
+                        <input type="text" placeholder='Enter your password'/>
                     </div>
                 </div>  
                 <div className="account-not-exists">Don't have an account?  

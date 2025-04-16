@@ -18,7 +18,7 @@ function Signup()
                         <input type="text" placeholder='Enter a Username'/>
                     </div>
                     <div className="input">
-                        <input type="email" placeholder='Enter Email'/>
+                        <input type="text" placeholder='Enter Email'/>
                     </div>
                     <div className="input">
                         <input type="password" placeholder='Enter a Password'/>
